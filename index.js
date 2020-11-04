@@ -14,6 +14,26 @@ const returnLastTwoDrivers = (arr) => {
     return arr.slice(-2);
 }
 
-const selectingDrivers = [returnFirstTwoDrivers(), returnLastTwoDrivers()];
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
-//selectingDrivers.forEach(function())
+selectingDrivers.forEach(function(returnFirstTwoDrivers, returnLastTwoDrivers, selectingDrivers) {
+    return selectingDrivers;
+})
+
+const createFareMultiplier = (function(a) {
+    return a * a;
+})
+
+const fareDoubler = (function(a) {
+    return 2 * a;
+});
+
+
+const fareTripler = (function(a) {
+    return 3 * a;
+})
+
+const selectDifferentDrivers = [createFareMultiplier, fareDoubler, fareTripler];
+selectDifferentDrivers.forEach(function(returnFirstTwoDrivers, selectDifferentDrivers) {
+    return selectDifferentDrivers;
+})
